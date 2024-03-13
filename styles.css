@@ -9,13 +9,19 @@
     --linktext: #9fff80;
 }
 
+html {
+    background-color: var(--background);
+}
+
 body {
+    font-size: 1.8rem;
     color: var(--text);
     background-color: var(--background);
     margin: auto;
     max-width: 60em;
     cursor: url('media/gavel.svg'), auto;
     font-family: 'Yanone Kaffeesatz Regular';
+    padding: 14px;
 }
 
 a {
