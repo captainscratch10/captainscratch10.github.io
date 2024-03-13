@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Yanone Kaffeesatz Regular';
+    src: url('media/YanoneKaffeesatz-Regular.woff') format('woff')
+}
+
+:root {
+    --background: #2b3d25;
+    --text: #cdffbd;
+    --linktext: #9fff80;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+    margin: auto;
+    max-width: 60em;
+    cursor: url('media/gavel.svg'), auto;
+    font-family: 'Yanone Kaffeesatz Regular';
+}
+
+a {
+    color: var(--linktext);
+}
