@@ -19,7 +19,7 @@ body {
     background-color: var(--background);
     margin: auto;
     max-width: 60em;
-    cursor: url('media/gavel.svg'), auto;
+    cursor: url('media/gavel.png'), auto;
     font-family: 'Yanone Kaffeesatz Regular';
     padding: 14px;
 }
